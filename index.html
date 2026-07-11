@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Interactive Web Elements</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Interactive Web Elements</h1>
+      <p>Project 3 Demo — buttons, toggles, and live content updates</p>
+
+      <button class="btn js-theme-toggle">Toggle Dark Mode</button>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>1. Counter Widget</h2>
+        <p>Click the buttons to change the number below.</p>
+
+        <div class="counter-box">
+          <button class="btn js-decrement">−</button>
+          <span class="counter-value js-counter-value">0</span>
+          <button class="btn js-increment">+</button>
+        </div>
+
+        <button class="btn btn-outline js-reset">Reset</button>
+      </section>
+
+      <section class="card">
+        <h2>2. Live Character Counter</h2>
+        <p>Type something below and watch the counter update instantly.</p>
+
+        <textarea
+          class="js-text-input"
+          rows="4"
+          placeholder="Start typing here..."
+        ></textarea>
+        <p class="char-count">
+          Characters: <span class="js-char-count">0</span>
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>3. Show / Hide Toggle</h2>
+        <p>Click the question to reveal or hide the answer.</p>
+
+        <button class="faq-question js-faq-toggle">
+          What is DOM manipulation? <span class="js-faq-icon">+</span>
+        </button>
+        <p class="faq-answer js-faq-answer">
+          DOM manipulation means using JavaScript to change what's on the page
+          like updating text, adding classes or reacting to clicks without
+          reloading the page.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 DecodeLabs Training Kit</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
