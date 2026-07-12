@@ -123,7 +123,7 @@ No installation or dependencies are required.
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **Muhammad Ali**
 
